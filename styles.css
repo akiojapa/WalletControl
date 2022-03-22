@@ -352,10 +352,14 @@ input{
 /*footer*/
 
 footer{
-    padding: 8rem 0 2rem;
+   /* background-color: #0c381f;*/
     text-align: center;
-    color: #a5a7ad;
-    opacity: 0.7;
+    color: rgb(177, 177, 177);
+    position: fixed;
+    width: 100%;
+    clear: both;
+    bottom: 0;
+    padding: 8px 0px;
 
 }
 
