@@ -1,4 +1,4 @@
-<h1 align = "center" > Projeto Spring Boot utilizando MongoDB </h1>
+<h1 align = "center" > Projeto WalletControl </h1>
 
 
 ## Biblioteca ##
@@ -16,7 +16,7 @@ Instale os requisitos abaixo e siga as Instruções para executar o Projeto.
 
 
 ## Status do projeto 
-> :soon: Projeto concluído :soon:
+> :soon: Em andamento :soon:
 
 
 ## Descrição do projeto 
