@@ -10,7 +10,7 @@ Instale os requisitos abaixo e siga as Instruções para executar o Projeto.
 
 ## Dependências 
 
-- <a href=https://git-scm.com/download>Git</a>
+- <a href=https://akiojapa.github.io/WalletControl/>WalletControl</a>
 
 
 
@@ -27,11 +27,9 @@ Projetos futuros: Adicionar um site para o conhecimento da Dev_Inglorius, CRUD p
 
 ## :hammer: Instruções de como usar
 
-`Pasta de criação: ` Crie uma pasta em qualquer repositório com o nome de WalletControl.
+`Acessando o site`: Utilize o link disponível acima e então comece a utilizar o sistema.
 
-`Github`: Após instalar o gitHub utilize o comando git clone: https://github.com/akiojapa/WalletControl.git
-
-`Iniciando o site: ` Então acesse a pasta criada e selecione o arquivo "index"(geralmente com o símbolo do navegador utilizado) e execute em seu navegador padrão.
+`Funções do site`: Agora após utilizar a opção + New Transition, coloque o "-" para gastos e digite o valor normalmente para os lucros, então o saldo automaticamente será obtido na tela.
 
 
 ##
