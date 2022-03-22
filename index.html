@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WalletControl</title>
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo&family=Smooch+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <img src="./assets/Logo2.png" alt="WalletControl">
+
+    </header>
+    <main class="container">
+
+        <section id="balance">
+            <h2 class="sr-only">Balance</h2>
+
+           
+
+            <div class="card income">
+                <h3>
+                    <span>
+                   Entry
+                    </span>
+                    <img src="./assets/income.svg" alt="Image of entry">
+                </h3>
+                    <p id="incomeDisplay">R$ 0,00</p>
+                
+            </div>
+
+            <div class="card expense">
+                <h3>
+                <span>
+                    Expense
+                     </span>
+                     <img src="./assets/expense.svg" alt="Image of expense">
+                    </h3>
+                <p id="expenseDisplay">R$ 0,00</p>
+            </div>
+
+            <div class="card total">
+                <h3>
+                    <span>
+                        Total
+                    </span>
+                    <div class="cat">     
+                    <img src="./assets/total2.png" alt="Image of total">
+                    </div>
+                </h3>
+                <p id="totalDisplay">R$ 0,00</p>
+            </div>
+        </section>
+        
+
+        <section id="transaction">
+            <h2 class="sr-only">Transaction</h2>
+         <a href="#" 
+         onclick="Modal.open()"
+         class="button new"> + New Transaction</a>
+
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Value</th>
+                        <th>Date</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>2022 - Dev_Inglorius</p>
+    </footer>
+
+    <div class="modal-overlay ">
+        <div class="modal">
+            <div class="imgnt">
+                <img src="./assets/Logo2.png" alt="Logont">
+            </div>
+            <div class="form">
+                <h2>New Transaction</h2>
+                <form action="" onsubmit="Form.submit(event)">
+                    <div class="input-group">
+                        <label class="sr-only" for="description">Description</label>
+                            <input 
+                            type="text"
+                            name="description" 
+                            id="description" 
+                            placeholder="Description"
+                            />
+                    </div>
+
+                    <div class="input-group">
+                        <label class="sr-only" 
+                        for="amount">Amount</label>
+                        <input 
+                        type="number"
+                        step="0.01"
+                        name="amount" 
+                        id="amount" 
+                        placeholder="0,00"
+                        />
+                        <small class="help">Use "-" for negative and "," for decimal numbers.</small>
+                    </div>
+                    <div class="input-group">
+                        <label class="sr-only" for="date">Date</label>
+                            <input 
+                            type="date"
+                            name="date" 
+                            id="date" 
+                            placeholder="Date"
+                            />
+                    </div>
+
+                    <div class="input-group actions">
+                        <a href="#"
+                        onclick="Modal.close()" 
+                        class="button cancel">Cancel</a>
+                        <button>Save</button>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+
+    <script src="./script.js" defer></script>
+</body> 
+</html>
