@@ -8,11 +8,6 @@ Instale os requisitos abaixo e siga as Instruções para executar o Projeto.
 
 
 
-## Dependências 
-
-- <a href=https://akiojapa.github.io/WalletControl/>WalletControl</a>
-
-
 
 
 ## Status do projeto 
